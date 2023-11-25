@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: o;
+    text-align: center;
+    font-family: 'Roboto', Arial
+}
+
+.container{
+    width: 1000px;
+    padding: 0 20px;
+}
+
+.bg-dark{
+    background-color: #1F2937;
+}
+
+.text-white {
+    color: #f9faf8;
+}
+
+.logo {
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    list-style-type: none;
+    gap: 20px
+}
+
+.navbar{
+    display: flex;
+    justify-content: center
+}
+
+.navbar > .container{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
