@@ -33,7 +33,7 @@ body {
     justify-content: center
 }
 
-.navbar > .container{
+.navbar .container{
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -42,4 +42,48 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.mainBanner{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 30px;
+    padding: 30px 0 70px 0;
+
+}
+
+.mainBannerDiv {
+    flex:1;
+    text-align: left;
+}
+
+.bannerImg {
+    flex: 1;
+    max-width: 450px;
+    max-height: auto;
+    border-radius: 5px;
+}
+
+.mainBannerDiv h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+    margin: 10px 0 10px 0;
+}
+
+.mainBannerDiv p {
+    color: #f9faf8;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.mainBannerDiv button {
+    background-color: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9faf8;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 6px;
 }
