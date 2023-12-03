@@ -87,3 +87,30 @@ a {
     border: none;
     border-radius: 6px;
 }
+
+.cards img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px
+}
+
+.cards p {
+    width: 200px;
+    margin: 7px
+}
+
+.cardsSection h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 50px 0;
+
+}
