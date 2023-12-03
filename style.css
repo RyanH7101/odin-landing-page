@@ -141,3 +141,46 @@ a {
     padding: 100px;
     padding: 0;
 }
+
+.signUp {
+    display: flex;
+    justify-content: center;
+}
+
+.signUpBox {
+    background-color: #3882f6;
+    width: 800px;
+    margin: 80px;
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: Center;
+    gap: 50px;
+    padding: 40px;
+}
+
+.signUpText {
+    text-align: left;
+    
+}
+
+.signUpBox h2 {
+    margin: 0;
+}
+
+.signUpBox p {
+    margin: 0;
+}
+
+.signUpBox button {
+    padding: 0px 10px;
+    height: 40px;
+    width: 150px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: white;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+}
