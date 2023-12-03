@@ -112,5 +112,32 @@ a {
     font-size: 36px;
     font-weight: bold;
     margin: 50px 0;
+}
 
+.cardsSection {
+    margin-bottom: 50px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 0 200px;
+    padding-bottom: 40px;
+
+}
+
+.quote p {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-family: 'roboto';
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.qouteName {
+    text-align: right;
+    padding: 100px;
+    padding: 0;
 }
